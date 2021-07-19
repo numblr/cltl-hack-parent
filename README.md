@@ -8,11 +8,11 @@ Parent repository for a dummy application to hack around in.
 
 #### Python
 
-Use Python 3.8:
+Use Python 3.8 (e.g. using [penv](https://github.com/pyenv/pyenv#homebrew-on-macos)):
 
+    > brew update
     > brew install openssl readline sqlite3 xz zlib pyenv
-    > eval (pyenv init -)
-
+    > echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
 
 Switch to Python 3.8.3 in the terminal you will be using:
 
@@ -43,7 +43,12 @@ On Linux install minikube (see [here](https://minikube.sigs.k8s.io/docs/start/))
     
     > minikube start
 
-Check if the cluster is running:
+Install `kubectl` (see [here](https://kubernetes.io/de/docs/tasks/tools/install-kubectl/))
+
+    > brew install kubernetes-cli
+    > kubectl version
+
+and check if the cluster is running:
 
     > kubectl cluster-info
 
@@ -61,7 +66,7 @@ Checkout the code:
 
     > git clone --recurse-submodules -j8 https://github.com/numblr/cltl-hack-parent.git
 
-and run it:
+and run it from the repository root:
 
     > make clean
     > make build
