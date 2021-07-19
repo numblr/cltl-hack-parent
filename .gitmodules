@@ -1,0 +1,15 @@
+[submodule "util"]
+	path = util
+	url = https://github.com/leolani/cltl-build
+[submodule "cltl-combot"]
+	path = cltl-combot
+	url = https://github.com/leolani/cltl-combot
+[submodule "cltl-requirements"]
+	path = cltl-requirements
+	url = https://github.com/leolani/cltl-requirements
+[submodule "cltl-chat-ui"]
+	path = cltl-chat-ui
+	url = https://github.com/leolani/cltl-chat-ui
+[submodule "cltl-hack"]
+	path = cltl-hack
+	url = https://github.com/numblr/cltl-hack
