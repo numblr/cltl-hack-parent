@@ -13,3 +13,6 @@
 [submodule "cltl-hack"]
 	path = cltl-hack
 	url = https://github.com/numblr/cltl-hack
+[submodule "cltl-chat-backend"]
+	path = cltl-chat-backend
+	url = https://github.com/numblr/cltl-chat-backend.git

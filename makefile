@@ -11,7 +11,8 @@ project_components = $(addprefix ${project_root}/, \
 		cltl-combot \
 		cltl-requirements \
 		cltl-hack \
-		cltl-chat-ui)
+		cltl-chat-ui \
+		cltl-chat-backend)
 
 git_local ?= ..
 git_remote ?= https://github.com/leolani
